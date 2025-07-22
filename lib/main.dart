@@ -1,3 +1,4 @@
+import 'package:emp_attendance/ctr/bt_ctr.dart';
 import 'package:emp_attendance/home.dart';
 import 'package:emp_attendance/utils/theme.dart';
 import 'package:flutter/material.dart';
@@ -12,6 +13,7 @@ void main() async {
       DeviceOrientation.portraitUp,
     ],
   );
+  Get.put(BTCtr());
   runApp(
     GetMaterialApp(
       title: 'Home Automation',
